@@ -1,0 +1,23 @@
+.teclasP1 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.teclasParteInferior {
+    display: flex;
+}
+
+.teclasP2 {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.teclasP3 {
+    width: 300px;
+    height: 300px;
+}

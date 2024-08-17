@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class = "calculadora">
+        <input id = "display" readonly>
+        <div class = "teclasP1">
+            <button onclick = "limpar()" class = "clear">C</button>
+            <button onclick = "exibirNoDisplay('(')" class = "active">(</button>
+            <button onclick = "exibirNoDisplay(')')" class = "active">)</button>
+            <button onclick = "exibirPorcentagem()" class = "active">%</button>
+            <button onclick = "apagarUltimo()" class = "active">⌫</button>
+            <button onclick = "exibirNoDisplay('7')" class = "active">7</button>
+            <button onclick = "exibirNoDisplay('8')" class = "active">8</button>
+            <button onclick = "exibirNoDisplay('9')" class = "active">9</button>
+            <button onclick = "exibirOperador('/')" class = "active">/</button>
+            <button onclick = "exibirOperador('-')" class = "active">-</button>
+            <button onclick = "exibirNoDisplay('4')" class = "active">4</button>
+            <button onclick = "exibirNoDisplay('5')" class = "active">5</button>
+            <button onclick = "exibirNoDisplay('6')" class = "active">6</button>
+            <button onclick = "exibirOperador('+')" class = "active">+</button>
+            <button onclick = "exibirOperador('*')" class = "active">*</button>
+        </div>
+        <div class="teclasParteInferior">
+            <div class = "teclasP2">
+                <button onclick = "exibirNoDisplay('1')" class = "active">1</button>
+                <button onclick = "exibirNoDisplay('2')" class = "active">2</button>
+                <button onclick = "exibirNoDisplay('3')" class = "active">3</button>
+                <button onclick = "negativo()" class = "active">+/-</button>
+                <button onclick = "exibirNoDisplay('0')" class = "active">0</button>
+                <button onclick = "exibirNoDisplay('.')" class = "active">.</button>
+            </div>
+            <div class = "teclasP3">
+                <button onclick = "calcular()" class = "calculate">=</button>
+            </div>
+        </div>
+    </div>
+    <script src = "./assets/js/script.js"></script>
+</body>
+</html>

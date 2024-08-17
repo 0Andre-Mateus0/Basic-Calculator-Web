@@ -1,0 +1,23 @@
+.calculadora {
+    font-family: Arial, sans-serif;
+    background-color: #17181d;
+    border-radius: 15px;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 4rem;
+    background-color: #22232b;
+    text-align: left;
+    border: none;
+    color: #fff1e2;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#display::-webkit-scrollbar {
+    display: none;
+}

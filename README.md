@@ -6,7 +6,7 @@
 </p>
 
 <h3>Screenshots:</h3>
-![Showcase](assets/images/demoGIF.gif)
+![Showcase](https://github.com/0Andre-Mateus0/Basic-Calculator-Web/blob/main/assets/images/demoGIF.gif?raw=true)
 
 <h3>Known Bugs/Errors:</h3>
 <ul>

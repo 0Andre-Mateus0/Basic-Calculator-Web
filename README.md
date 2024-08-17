@@ -5,9 +5,6 @@
     The objective of this project is to create a calculator. Please note that this is still a work in progress and may contain some errors.
 </p>
 
-<h3>Screenshots:</h3>
-![Showcase](https://github.com/0Andre-Mateus0/Basic-Calculator-Web/blob/main/assets/images/demoGIF.gif?raw=true)
-
 <h3>Known Bugs/Errors:</h3>
 <ul>
     <li>
